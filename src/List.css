@@ -1,0 +1,18 @@
+.list-header {
+  display: flex;
+  background: #ccc;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.list-header > span {
+  padding: 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.active-sort {
+  background: red;
+}
